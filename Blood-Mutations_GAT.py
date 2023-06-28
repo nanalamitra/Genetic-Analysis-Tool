@@ -1,7 +1,7 @@
 import pandas as pd
 
-# Load the data from a TSV file
-filename = "abc12.txt"
+# Load the data from a file
+filename = "User-Genome-file.txt" 
 data = pd.read_csv(filename, sep="\t", skiprows=20, names=["rsid", "chromosome", "position", "genotype"])
 
 # Define the rsids for JAK2, CALR, and MPL mutations
